@@ -29,7 +29,7 @@ export class WarpThemeHelper {
   }
 
   #handleThemeSwap(theme) {
-    this.#styleEl.setAttribute('href', `/${theme}.css`)
+    this.#styleEl.setAttribute('href', `/theme-switching-poc-rfc-repo-of-mystery-and-wonder/${theme}.css`)
   }
 }
 
